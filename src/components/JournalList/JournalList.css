@@ -1,0 +1,13 @@
+.journal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.journal-text {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 2px solid blue;
+  width: 250px;
+}
