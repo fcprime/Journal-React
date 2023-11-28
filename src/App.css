@@ -1,4 +1,8 @@
 .app {
   display: flex;
   padding: 30px;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
 }

@@ -1,4 +1,10 @@
 .body {
   width: 100%;
   padding: 50px;
+
+  @media screen and (max-width: 600px) {
+    width: 80%;
+    padding: 25px;
+    margin: 0 auto;
+  }
 }

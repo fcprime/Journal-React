@@ -8,4 +8,8 @@
   font-weight: 600;
   font-style: normal;
   line-height: normal;
+
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 }
