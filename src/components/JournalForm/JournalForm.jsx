@@ -35,7 +35,7 @@ const JournalForm = ({ onSubmit, data, onDelete }) => {
       dispatchForm({ type: 'SET_VALUE', payload: { userId } });
     }
     dispatchForm({ type: 'SET_VALUE', payload: { ...data } });
-  }, [data]);
+  }, [data, userId]);
 
   useEffect(() => {
     let timerId;
